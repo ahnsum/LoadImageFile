@@ -31,10 +31,3 @@ namespace LoadImageFile
         }
     }
 }
-
-
-
-
-
-
-//https://yeko90.tistory.com/category/c%23/wpf

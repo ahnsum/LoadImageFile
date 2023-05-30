@@ -15,7 +15,6 @@ namespace LoadImageFile.ViewModels
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
-        //private Bitmap _imageSource;
         private String _imageSource;
         private DelegateCommand _loadImageCommand = null;
 
@@ -48,8 +47,6 @@ namespace LoadImageFile.ViewModels
             {
                 string filename = dlgOpenFile.FileName;
                 ImageSource = filename;
-
-                //ImageSource = new Bitmap(filename);
             }
         }
      
@@ -68,7 +65,6 @@ namespace LoadImageFile.ViewModels
         }
 
         #endregion
-
     }
 
 }
